@@ -17,23 +17,38 @@
 /* *{
   border: 1px solid black;
 } */
+
 /*#region icon hamburguer-button*/
 #hamburguer-button{
   background: none;
-}
+  position: fixed;
+  z-index: 3;
+  right: 3%;  
 
+  top: 3%;
+}
+p{
+  position: absolute;
 /* #hamburguer-button {
   background-image: url('/hamburguericon.svg');
   background-size: contain; // Ajusta el tamaño de la imagen para que se ajuste al botón
   background-repeat: no-repeat; // Evita que la imagen se repita
   padding-left: 30px; //Ajusta el padding izquierdo para dejar espacio al logo
-} */
+ */
+}
 /*#endregion*/
 
 /*#region hamburguer-container*/
 #hamburguer-menu{
     display: none;
-    z-index: 2200;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    
     /* display: flex;
     justify-content: center;
     background-color: none; */
@@ -42,12 +57,10 @@
 
 /*#region hamburguer-items*/
 #hamburguer-menu ul li {
-    padding: 15px 0;
+    font-size: 45px;
+    font-family: "Titan One", sans-serif;
+    padding-bottom: 30px;
+
 }
 
-#hamburguer-menu ul li a {
-    color: blue;
-    font-size: 18px;
-    font-family: sans-serif;
-}
 /*#endregion*/

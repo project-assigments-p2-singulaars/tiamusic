@@ -1,6 +1,53 @@
-.h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*#region reset styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+/*#endregion*/
+
+/* https://tuwebcreativa.com/menu-hamburguesa-html-css/ */
+
+/* *{
+  border: 1px solid black;
+} */
+/*#region icon hamburguer-button*/
+#hamburguer-button{
+  background: none;
 }
-.navbar{
-    
+
+/* #hamburguer-button {
+  background-image: url('/hamburguericon.svg');
+  background-size: contain; // Ajusta el tamaño de la imagen para que se ajuste al botón
+  background-repeat: no-repeat; // Evita que la imagen se repita
+  padding-left: 30px; //Ajusta el padding izquierdo para dejar espacio al logo
+} */
+/*#endregion*/
+
+/*#region hamburguer-container*/
+#hamburguer-menu{
+    display: none;
+    z-index: 2200;
+    /* display: flex;
+    justify-content: center;
+    background-color: none; */
 }
+/*#endregion*/
+
+/*#region hamburguer-items*/
+#hamburguer-menu ul li {
+    padding: 15px 0;
+}
+
+#hamburguer-menu ul li a {
+    color: blue;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/*#endregion*/

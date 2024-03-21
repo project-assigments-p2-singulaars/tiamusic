@@ -6,31 +6,72 @@
     height:100%;
 }
 .text-container{
-    background-color:#769FEF;
-    width: 800px;
-    height: 250px;
+    width: 70%;
+    height: 70%;
+    background-color: #769FEF;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-    z-index: 1000;
     -webkit-box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
     -moz-box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
     box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 10px;
+    gap: 5%;
+    margin: 7%;
+    text-size-adjust: auto;
+    position: relative;
+
+}
+
+.welcome{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+}
+#bassclef{
+    margin-top: 99%;
+}
+
+#beatflow{
+    background-image: linear-gradient(to right,rgba(120, 161, 240, 1),rgba(254, 254, 255, 1),rgba(254, 254, 255, 1));
+    width: 100vw;
+    height: 50px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 
 h1{
     color:white;
+    font-size: 1.2em;
+    margin-top: 0%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 7%;
+    font-family: "Titan One", sans-serif;
+    font-weight: lighter;
 }
-p{
+
+h2{
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.welcometext{
     color:white;
+    font-size:  1em;
+
+}
+.footertext{
+    font-size:1em;
+    color: white;
 }
 #click-button{
     background-color: #296AE7;
@@ -46,6 +87,42 @@ p{
     justify-content: center;
     flex-direction: column;
     align-items: center; 
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 /*#endregion*/
+
+/*#region footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(118, 159, 239, 1);
+    font-size: small;
+    margin-bottom: 0%;
+}
+#copyright{
+    margin-bottom: 0%;
+    width: 40px;
+    height: 40px;
+}
+#facebook{
+    width: 45px;
+    height:45;
+}
+#logotiamusic{
+    width: 70px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 0%;
+}
+#twitterx{
+    width: 45px;
+    height:45px;
+}
+#instagram{
+    width: 52px;
+    height:52px;
+
+}
 

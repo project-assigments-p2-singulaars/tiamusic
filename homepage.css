@@ -93,7 +93,7 @@ h2{
 /*#endregion*/
 
 /*#region footer*/
-footer{
+.footer-hamburguer-footer{
     display: flex;
     flex-direction: row;
     justify-content:space-around;

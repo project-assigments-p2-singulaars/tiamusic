@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
-<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" type="text/css" href="./hamburguer.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&family=Titan+One&display=swap" rel="stylesheet">
     <script src="navbar.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+    <script src="./hamburguer.js" defer></script>
     <script src="instruments.js" defer></script>
-    <title>Document</title>
+    <title>Instrumentos</title>
+</head>
+<body>
+    <button id= "menu-instrument-hamburguer" onclick = "toggleMenu()"  alt = "Hamburguer Button">
+        <a id="hamburguer-button"><img src="/resources/hamburguericon.svg"></a>
+    </button>
+    <div id="hamburguer-menu">
+        <nav id="hamburguer-nav">
+            <ul>
+                <li><a href="#Home"></a>Inicio</li>
+                <li><a href="#Instruments"></a>Instrumentos</li>
+                <li><a href="#Tutorials"></a>Tutoriales</li>
+            </ul>
+        </nav>
+        <div class="footer-hamburguer-menu">
+            <img src="./resources/tiamusiclogo.png" alt="tiamusiclogo" id="logo-tiamusic">
+            <p id="power">Powered by TiaMusic</p>
+        </div>
+    
 </head>
 <body>
     <div id="instruments">

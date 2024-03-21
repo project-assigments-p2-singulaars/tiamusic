@@ -1,0 +1,76 @@
+/*#reset styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+/*#endregion*/
+
+/*#hamburguer-button*/
+#hamburguer-button{
+  background: none;
+  position: fixed;
+  z-index: 3;
+  right: 3%;  
+  top: 3%;
+}
+/*#hamburguer-button*/
+#hamburguer-menu{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    top: 0%;
+    left: 0%;  
+}
+/*#endregion*/
+
+/*#hamburguer-items*/
+#hamburguer-menu ul li {
+    font-size: 45px;
+    font-family: "Titan One", sans-serif;
+    padding-bottom: 30px;
+
+}
+/*#endregion*/
+
+
+/*#footer-hamburguer*/
+.footer-hamburguer-menu{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-right: 3%;
+  margin-bottom: 1%;
+}
+/*#endregion*/
+
+/*#logo tiamusic*/
+#logo-tiamusic{
+  width: 50px;
+  height: 50px;
+  padding: auto;
+}
+/*#endregion*/
+
+/*#PowerBy*/
+#power{
+  font-size: 20px;
+  font-family: "Homenaje", sans-serif;
+  color: white;
+  margin-top: 5%;
+}
+/*#endregion*/

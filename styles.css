@@ -1,0 +1,196 @@
+.background{
+    background-color: white;
+    width:100%;
+    height:100%;
+}
+.text-container{
+    background-color:#769FEF;
+    width: 800px;
+    height: 250px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    z-index: 1000;
+    -webkit-box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
+    -moz-box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
+    box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+h1{
+    color:white;
+}
+p{
+    color:white;
+}
+#click-button{
+    background-color: #296AE7;
+    color: white;
+    width: 150px;
+    height:50px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-color: #296AE7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 932px;
+    width: 430px;
+    display: flex;
+    min-height: 100vh;
+}
+
+/*#region Instrument-Piano*/
+
+#box-piano{
+    background-color: #333;
+    width: 800px;
+    height: 340px;
+    -webkit-box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+}
+
+.key{
+    text-align: center;
+    cursor: pointer;
+}
+
+.instrument-menu{
+    background-color: #212020;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-instrument-menu{
+    color: #fff;
+}
+.switch-instrument-menu{
+    display: flex;
+    align-items: center;
+}
+
+.instrument-list{
+    scroll-behavior: unset;
+    display:flex;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 650px;
+    list-style: none;
+    margin: 1.2rem;
+}
+
+.white-key{
+    width: 88px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: linear-gradient(#fff 96%,#eee 4%)
+    
+}
+
+.white-key:hover{
+    background: linear-gradient(#3de96a 96%,#09882b 4%)
+}
+
+.black-key:hover{
+    background: linear-gradient(#3de96a 96%,#09882b 4%)
+}
+
+.black-key{
+    width: 44px;
+    height: 200px;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(#333 ,#000);
+    margin: 0 -22px 0 -22px;
+    z-index: 2;
+    color: #eee;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 30px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/*#endregion*/

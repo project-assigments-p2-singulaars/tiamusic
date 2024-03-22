@@ -25,9 +25,9 @@ Gracias a ello hemos podido refinar el product backlog y dividir las tareas por 
 
 ![](preview/sprintsnapshot.png)
 
-Utilizamos también la metodología Kanban con un Kanbanboard para organizarnos e trabajo
+Utilizamos también la metodología Kanban con un Kanban board para organizarnos e trabajo
 
-Aquí dejamos el enlace al Trello donde hemos
+Para visualizar el trello con el Kanban board haz click [AQUÍ](https://trello.com/b/gj3m0KgG/tiamusic-sprint-1-product-backlog)
 
 # FLUJO DE TRABAJO
 Para controlar las diferentes versiones y avance del proyecto hemos utilizado la metodología GitFlow distribuyendo el trabajo en diferentes ramas.

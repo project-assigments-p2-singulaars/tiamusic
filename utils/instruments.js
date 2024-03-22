@@ -1,9 +1,9 @@
 const instrumentKeysPiano = document.querySelectorAll(".instrument-list .key");
 
-let audioPiano = new Audio("tunes/a.wav");
+let audioPiano = new Audio("/tunes/a.wav");
 
 const playSoundPiano = (key) =>{
-    audioPiano.src= `tunes/${key}.wav`;
+    audioPiano.src= `/tunes/${key}.wav`;
     audioPiano.play();
 
     const clickedKey = document.querySelector(`[data-key=${key}]`);
@@ -25,10 +25,10 @@ document.addEventListener("keydown", pressedKeyPiano);
 
 const instrumentKeysXylo = document.querySelectorAll(".instrument-list-xylo .key");
 
-let audioXylo = new Audio("xylo/z.wav");
+let audioXylo = new Audio("/xylo/z.wav");
 
 const playSoundXylo = (key) =>{
-    audioXylo.src= `xylo/${key}.wav`;
+    audioXylo.src= `/xylo/${key}.wav`;
     audioXylo.play();
 
     const clickedKey = document.querySelector(`[data-key=${key}]`);

@@ -1,0 +1,201 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.background{
+    background-color: white;
+    width:100%;
+    height:100%;
+}
+.text-container{
+    background-color:#769FEF;
+    width: 800px;
+    height: 250px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    z-index: 1000;
+    -webkit-box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
+    -moz-box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
+    box-shadow: 35px 26px 3px 0px rgba(226, 226, 226, 1);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    color:white;
+}
+p{
+    color:white;
+}
+#click-button{
+    background-color: #296AE7;
+    color: white;
+    width: 150px;
+    height:50px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-color: #296AE7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.aside-instruments{
+    display: flex;
+}
+
+/*#region Instrument-Piano*/
+
+.box-piano{
+    visibility: visible;
+    display: flex;
+    background-color: #333;
+    width: 700px;
+    height: 320px;
+    -webkit-box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+}
+
+.box-xylo{
+    visibility: hidden;
+    display: none;
+    display: flex;
+    background-color: #613304;
+    width: 700px;
+    height: 320px;
+    -webkit-box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 45px 36px 5px 0px rgba(0,0,0,0.75);
+}
+
+.key{
+    text-align: center;
+    cursor: pointer;
+}
+
+.instrument-menu{
+    background-color: #212020;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.instrument-menu-xylo{
+  background-color: #212020;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-instrument-menu{
+    color: #fff;
+}
+.switch-instrument-menu{
+    display: flex;
+    align-items: center;
+}
+
+.instrument-list{
+    scroll-behavior: unset;
+    display:flex;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 650px;
+    list-style: none;
+    margin: 1.2rem;
+}
+
+.instrument-list-xylo{
+  scroll-behavior: unset;
+  display:flex;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  width: 650px;
+  list-style: none;
+  margin: 1.2rem;
+}
+
+.white-key{
+    width: 88px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: linear-gradient(#fff 96%,#eee 4%)
+    
+}
+
+.yellow-key{
+    width: 88px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: linear-gradient(#e3ac15 96%,#fbef7f 4%)
+    
+}
+
+.yellow-key:hover{
+    background: linear-gradient(#3de96a 96%,#09882b 4%)  
+}
+
+.white-key:hover{
+    background: linear-gradient(#3de96a 96%,#09882b 4%)
+}
+
+.black-key:hover{
+    background: linear-gradient(#3de96a 96%,#09882b 4%)
+}
+
+.black-key{
+    width: 44px;
+    height: 200px;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(#333 ,#000);
+    margin: 0 -22px 0 -22px;
+    z-index: 2;
+    color: #eee;
+}
+
+/*#endregion*/
+
+/*#region Navbar Instrument*/
+
+.navInstruments{
+  display: flex;
+  background-color: #769FEF;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+li{
+  list-style:none;
+}
+
+/*#endregion*/

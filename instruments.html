@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/resources/tiamusiclogo.png" type="image/x-icon">
+    <script src="/utils/navbar.js" defer></script>
+    <script src="/utils/hamburjerhome.js" defer></script>
+    <script src="/utils/instruments.js" defer></script>
+    <link rel="stylesheet" href="/style/styles.css">
+    <title>Instrumentos</title>
+</head>
+<body>
+    <section class="box-piano visible">
+        <div  class="instrument-list">
+            <div data-key="a" class="key white-key"></div>
+            <div data-key="w" class="key black-key"></div>
+            <div data-key="s" class="key white-key"></div>
+            <div data-key="e" class="key black-key"></div>
+            <div data-key="d" class="key white-key"></div>
+            <div data-key="f" class="key white-key"></div>
+            <div data-key="t" class="key black-key"></div>
+            <div data-key="g" class="key white-key"></div>
+            <div data-key="y" class="key black-key"></div>
+            <div data-key="h" class="key white-key"></div>
+            <div data-key="u" class="key black-key"></div>
+            <div data-key="j" class="key white-key"></div>
+            <div data-key="k" class="key white-key"></div>
+            <div data-key="o" class="key black-key"></div>
+            <div data-key="l" class="key white-key"></div>
+            <div data-key="p" class="key black-key"></div>
+            <div data-key="ñ" class="key white-key"></div>
+        </div>
+    </section>
+
+    <section class="box-xylo hidden">
+        <div  class="instrument-list-xylo">
+            <div data-key="" class="key yellow-key"></div>
+            <div data-key="" class="key yellow-key"></div>
+            <div data-key="" class="key yellow-key"></div>
+            <div data-key="" class="key yellow-key"></div>
+            <div data-key="" class="key yellow-key"></div>
+            <div data-key="" class="key yellow-key"></div>
+            <div data-key="" class="key yellow-key"></div>
+            <div data-key="" class="key yellow-key"></div>
+        </div>
+    </section>
+
+    <div class="aside-instruments">
+        <section>
+            <button id= "menu-instrument-hamburguer" onclick = "toggleMenu()"  alt = "Hamburguer Button">
+                <a id="hamburguer-button"><img src="/resources/hamburguericon.svg"></a>
+            </button>
+            <div id="hamburguer-menu">
+                <nav id="hamburguer-nav">
+                    <ul>
+                        <li><a href="homepage.html">Inicio</a></li>
+                        <li><a href="instruments.html">Instrumentos</a></li>
+                        <li><a href="tutorials.html">Tutoriales</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-hamburguer-menu">
+                    <img src="./resources/tiamusiclogo.png" alt="tiamusiclogo" id="logo-tiamusic">
+                    <p id="power">Powered by TiaMusic</p>
+                </div>
+            <div>
+        </section> 
+        <div id="instruments">
+            <ul class="navInstruments" >
+                <li> <img class="piano" src="iconos/Piano.png" alt="imagen de un piano"></a>
+                <li> <img class="xylo" src="iconos/Xylophone.png" alt="imagen de un xylophono"></a>
+                <li> <img class="drum" src="iconos/Drum Set.png" alt="imagen de un drumset"></a>
+            </ul> 
+        </div> 
+    </div>
+   
+</body>
+</html>
